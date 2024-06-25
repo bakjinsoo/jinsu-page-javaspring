@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<div class="container">
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>이름</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="member : ${members}">
+                <td th:text="${member.id}"></td>
+                <td th:text="${member.name}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div> <!-- /container -->
+<form action="/members/search" method="get">
+    <div class="form-group">
+        <label for="name">이름</label>
+        <input type="text" id="name" name="keyword" placeholder="이름을 입력하세요">
+    </div>
+    <button type="submit">검색</button>
+</form>
+</body>
+</html>
