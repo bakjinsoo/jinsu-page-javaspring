@@ -2,14 +2,21 @@ package jinsu.jinsu_page.service;
 
 import jinsu.jinsu_page.domain.Member;
 import jinsu.jinsu_page.repository.MemberRepository;
+import jinsu.jinsu_page.repository.SpringDataJpaMemberRepository;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 public class MemberService {
     private final MemberRepository memberRepository;
+    private final SpringDataJpaMemberRepository springRepository;
+//    public MemberService(MemberRepository memberRepository) {
+//        this.memberRepository = memberRepository;
+//    }
 
-    public MemberService(MemberRepository memberRepository) {
+    public MemberService(MemberRepository memberRepository, SpringDataJpaMemberRepository springRepository) {
         this.memberRepository = memberRepository;
+        this.springRepository = springRepository;
     }
 
     /**
@@ -39,7 +46,9 @@ public class MemberService {
     public Optional<Member> findOne(Long memberId) {
         return memberRepository.findById(memberId);
     }
+    @Transactional
     public List<Member> searchName(String keyword)  {
-        return memberRepository.searchByName(keyword);
+        List<Member>members= springRepository.searchByNameContaining(keyword);
+        return members;
     }
 }

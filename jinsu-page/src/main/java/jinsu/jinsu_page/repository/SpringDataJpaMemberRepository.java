@@ -12,4 +12,6 @@ public interface SpringDataJpaMemberRepository extends JpaRepository<Member, Lon
 
     @Override
     List<Member> searchByName(String name);
+
+    List<Member> searchByNameContaining(String keyword);
 }
