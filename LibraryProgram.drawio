@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T05:57:02.382Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="3QgwJC-Jd5e1rk33ZrJv" version="24.4.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T05:59:31.710Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="_Zp6sE3wimhENXYxANQ3" version="24.4.14" type="github">
   <diagram name="페이지-1" id="tjgAfjmDA4C24se_uthZ">
-    <mxGraphModel dx="5397" dy="3742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2655" dy="2198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="g2qkWimIBLFewqdkklXv-13" value="라이브러리" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
           <mxGeometry x="248.09" y="-230" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g2qkWimIBLFewqdkklXv-18" value="Request" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
-          <mxGeometry x="7.105427357601002e-15" y="88.97" width="220" height="30" as="geometry" />
+        <mxCell id="g2qkWimIBLFewqdkklXv-18" value="&lt;div&gt;GET, POST&lt;/div&gt;Request" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="7.105427357601002e-15" y="62.239999999999995" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g2qkWimIBLFewqdkklXv-20" value="Create&lt;div&gt;Read&lt;/div&gt;&lt;div&gt;Update&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
           <mxGeometry x="483.33" y="32.239999999999995" width="220" height="30" as="geometry" />
