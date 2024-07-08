@@ -1,0 +1,1 @@
+INSERT INTO Books (title, count) values ('홍길동전', 3);

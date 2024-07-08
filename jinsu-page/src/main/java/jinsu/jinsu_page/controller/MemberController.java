@@ -1,28 +1,28 @@
 package jinsu.jinsu_page.controller;
 
+import jinsu.jinsu_page.domain.Book;
 import jinsu.jinsu_page.domain.Member;
-import jinsu.jinsu_page.repository.JpaMemberRepository;
-import jinsu.jinsu_page.repository.MemberRepository;
 import jinsu.jinsu_page.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Service;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.Mapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
-
+@Service
 @Controller
 public class MemberController {
     private final MemberService memberService;
-
+    private PasswordEncoder passwordEncoder;
 
     @Autowired
-    public MemberController(MemberService memberService) {
+    public MemberController(MemberService memberService,PasswordEncoder passwordEncoder) {
         this.memberService = memberService;
+        this.passwordEncoder = passwordEncoder;
     }
 
     @GetMapping("/members/new")
@@ -30,13 +30,22 @@ public class MemberController {
         return "members/createMemberForm";
     }
 
+    @GetMapping("/members/login")
+    public String loginForm() {
+        return "members/loginForm";
+    }
     @PostMapping("/members/new")
-    public String create(MemberForm form) {
-        Member member = new Member();
-        member.setName(form.getName());
-
-        memberService.join(member);
-        return "redirect:/";
+    public String create(MemberForm form, Model model) {
+        try {
+            Member member = new Member();
+            member.setName(form.getName());
+            member.setPassword(passwordEncoder.encode(form.getPassword()));
+            memberService.join(member);
+            return "redirect:/";
+        } catch (IllegalStateException e) {
+            model.addAttribute("errorMessage", e.getMessage());
+            return "home";
+        }
     }
     @GetMapping("/members")
     public String list(Model model) {
@@ -53,5 +62,9 @@ public class MemberController {
         List<Member> members=memberService.searchName(keyword);
         model.addAttribute("members", members);
         return "members/memberSearch.html";
+    }
+    @GetMapping("books/libraryHome")
+    public String library() {
+        return "books/libraryHome";
     }
 }

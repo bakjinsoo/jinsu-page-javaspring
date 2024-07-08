@@ -1,5 +1,6 @@
 package jinsu.jinsu_page.repository;
 
+import jinsu.jinsu_page.domain.Book;
 import jinsu.jinsu_page.domain.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 
