@@ -1,26 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T05:11:38.495Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="JoGQQZS9uSisiAXoTOPW" version="24.4.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T05:51:06.592Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="n3YXr2kVoIaDIxmQ8qQD" version="24.4.14" type="github">
   <diagram name="페이지-1" id="tjgAfjmDA4C24se_uthZ">
-    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2198" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="g2qkWimIBLFewqdkklXv-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://velog.velcdn.com/images/pak4184/post/49d37a62-b4f3-4432-8326-7d2c3059543d/image.svg;" vertex="1" parent="1">
-          <mxGeometry x="636" y="156.5" width="114" height="114" as="geometry" />
+          <mxGeometry x="797" y="171.5" width="114" height="114" as="geometry" />
         </mxCell>
         <mxCell id="g2qkWimIBLFewqdkklXv-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://velog.velcdn.com/images/linger0310/post/4476b077-5c7e-4ac9-af2e-756363b14294/%EC%8A%A4%ED%94%84%EB%A7%81.png;" vertex="1" parent="1">
-          <mxGeometry x="275" y="151" width="276.19" height="145" as="geometry" />
+          <mxGeometry x="208.39000000000001" y="-80" width="276.19" height="145" as="geometry" />
         </mxCell>
         <mxCell id="g2qkWimIBLFewqdkklXv-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.thymeleaf.org/images/thymeleaf.png;" vertex="1" parent="1">
-          <mxGeometry x="78.63" y="157" width="132.74" height="133" as="geometry" />
+          <mxGeometry x="280.11" y="400" width="132.74" height="133" as="geometry" />
         </mxCell>
         <mxCell id="g2qkWimIBLFewqdkklXv-5" value="데이터 베이스" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
-          <mxGeometry x="590" y="117" width="220" height="30" as="geometry" />
+          <mxGeometry x="751" y="117" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g2qkWimIBLFewqdkklXv-6" value="뷰어" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
-          <mxGeometry x="35" y="117" width="220" height="30" as="geometry" />
+        <mxCell id="g2qkWimIBLFewqdkklXv-6" value="Viewer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="-246" y="117" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g2qkWimIBLFewqdkklXv-7" value="서버" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
-          <mxGeometry x="285" y="117" width="220" height="30" as="geometry" />
+        <mxCell id="g2qkWimIBLFewqdkklXv-7" value="웹서버" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="231.48" y="117" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g2qkWimIBLFewqdkklXv-9" value="Thymeleaf" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="231.48000000000002" y="568" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g2qkWimIBLFewqdkklXv-10" value="스프링 부트&lt;div&gt;내장 톰캣&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="241.52" y="330" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g2qkWimIBLFewqdkklXv-11" value="H2 데이터베이스" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="731" y="330" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g2qkWimIBLFewqdkklXv-12" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/f/fe/Apache_Tomcat_logo.svg;" vertex="1" parent="1">
+          <mxGeometry x="240.43999999999997" y="156.5" width="202.08" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="g2qkWimIBLFewqdkklXv-13" value="라이브러리" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="237.39000000000001" y="-110" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g2qkWimIBLFewqdkklXv-15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://blog.kakaocdn.net/dn/nsAuX/btrAFiYTwQb/FKTfLOrYH1KB30RR4aqlE0/img.png;" vertex="1" parent="1">
+          <mxGeometry x="-174.98" y="1100" width="1053" height="562" as="geometry" />
+        </mxCell>
+        <mxCell id="g2qkWimIBLFewqdkklXv-16" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://blog.kakaocdn.net/dn/NqPph/btq4p7uDQqh/EFvVFqM3f08U7dZU4vqqsk/img.png;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="130" width="1200" height="613" as="geometry" />
+        </mxCell>
+        <mxCell id="g2qkWimIBLFewqdkklXv-18" value="Request" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="7.105427357601002e-15" y="230" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g2qkWimIBLFewqdkklXv-20" value="Create&lt;div&gt;Read&lt;/div&gt;&lt;div&gt;Update&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="480" y="141.5" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g2qkWimIBLFewqdkklXv-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=5;exitX=1.013;exitY=0.499;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.011;entryY=0.497;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="g2qkWimIBLFewqdkklXv-26" target="g2qkWimIBLFewqdkklXv-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="285.5" as="sourcePoint" />
+            <mxPoint x="740" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g2qkWimIBLFewqdkklXv-22" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1979/1979209.png;" vertex="1" parent="1">
+          <mxGeometry x="-203.87" y="164.75" width="135.75" height="135.75" as="geometry" />
+        </mxCell>
+        <mxCell id="g2qkWimIBLFewqdkklXv-26" value="" style="swimlane;startSize=0;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="197.52" y="-130" width="302.48" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="g2qkWimIBLFewqdkklXv-28" value="" style="swimlane;startSize=0;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="709.76" y="-130" width="302.48" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="g2qkWimIBLFewqdkklXv-29" value="" style="swimlane;startSize=0;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="-287.24" y="-130" width="302.48" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="g2qkWimIBLFewqdkklXv-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.007;exitY=0.54;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.009;entryY=0.541;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;" edge="1" parent="1" source="g2qkWimIBLFewqdkklXv-29" target="g2qkWimIBLFewqdkklXv-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="270" as="sourcePoint" />
+            <mxPoint x="190" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g2qkWimIBLFewqdkklXv-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.005;exitY=0.716;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=5;" edge="1" parent="1" source="g2qkWimIBLFewqdkklXv-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="400" as="sourcePoint" />
+            <mxPoint x="15.240000000000002" y="400" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
