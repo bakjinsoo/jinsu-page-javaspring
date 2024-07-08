@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T06:31:47.855Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ZAMkIVoyU-DCsjPZKTZv" version="24.4.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T06:55:43.588Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="yRtfeVoC9jTmDTrzRuiX" version="24.4.14" type="github">
   <diagram name="페이지-1" id="tjgAfjmDA4C24se_uthZ">
     <mxGraphModel dx="2655" dy="2198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="g2qkWimIBLFewqdkklXv-26" value="" style="swimlane;startSize=0;strokeWidth=4;" vertex="1" parent="1">
           <mxGeometry x="230" y="-15" width="260" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="g2qkWimIBLFewqdkklXv-28" value="" style="swimlane;startSize=0;strokeWidth=4;" vertex="1" parent="1">
+        <mxCell id="g2qkWimIBLFewqdkklXv-28" value="" style="swimlane;startSize=0;strokeWidth=6;" vertex="1" parent="1">
           <mxGeometry x="730" y="-30" width="306.24" height="360" as="geometry" />
         </mxCell>
         <mxCell id="g2qkWimIBLFewqdkklXv-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://velog.velcdn.com/images/pak4184/post/49d37a62-b4f3-4432-8326-7d2c3059543d/image.svg;" vertex="1" parent="g2qkWimIBLFewqdkklXv-28">
@@ -31,7 +31,7 @@
         <mxCell id="g2qkWimIBLFewqdkklXv-11" value="H2 데이터베이스" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="g2qkWimIBLFewqdkklXv-28">
           <mxGeometry x="23.120000000000008" y="271.5" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g2qkWimIBLFewqdkklXv-29" value="" style="swimlane;startSize=0;strokeWidth=4;" vertex="1" parent="1">
+        <mxCell id="g2qkWimIBLFewqdkklXv-29" value="" style="swimlane;startSize=0;strokeWidth=6;" vertex="1" parent="1">
           <mxGeometry x="-302.24" y="-130" width="302.48" height="740" as="geometry" />
         </mxCell>
         <mxCell id="g2qkWimIBLFewqdkklXv-22" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1979/1979209.png;" vertex="1" parent="g2qkWimIBLFewqdkklXv-29">
@@ -52,7 +52,7 @@
         <mxCell id="g2qkWimIBLFewqdkklXv-33" value="템플릿 엔진&lt;div&gt;처리&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
           <mxGeometry x="-14.999999999999993" y="370" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g2qkWimIBLFewqdkklXv-38" value="" style="swimlane;startSize=0;strokeWidth=4;" vertex="1" parent="1">
+        <mxCell id="g2qkWimIBLFewqdkklXv-38" value="" style="swimlane;startSize=0;strokeWidth=6;" vertex="1" parent="1">
           <mxGeometry x="180" y="-230" width="350" height="840" as="geometry" />
         </mxCell>
         <mxCell id="g2qkWimIBLFewqdkklXv-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://velog.velcdn.com/images/linger0310/post/4476b077-5c7e-4ac9-af2e-756363b14294/%EC%8A%A4%ED%94%84%EB%A7%81.png;" vertex="1" parent="g2qkWimIBLFewqdkklXv-38">
